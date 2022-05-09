@@ -1,0 +1,20 @@
+.footer{
+  background-color: $darkblue; 
+}
+.footer-text{
+   width: 370px;
+   font-family: 'Raleway';
+   font-size: $_18px;
+   font-weight: 400;
+   line-height: 21px;
+   color: $midlsilver;
+   margin: auto;
+   text-align: center;
+   padding: 15px 0px;
+  
+   &::after{
+      content: 'By Kamal Chaneman';
+      color: $white;
+      font-weight: 900;
+   }
+}

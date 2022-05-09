@@ -1,0 +1,38 @@
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "cdn.scss";
+@import "firstscreen.scss";
+@import "features.scss";
+@import "download.scss";
+@import "about.scss";
+@import "footer.scss";
+@import "team.scss";
+@import "header.scss";
+@import "testimonials.scss";
+@import "works.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+section {
+  padding: 50px 0;
+ 
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 2;
+}
+
